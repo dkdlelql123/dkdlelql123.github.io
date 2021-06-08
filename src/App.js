@@ -7,14 +7,9 @@ function App() {
   return (
     <div className="App">
       <Switch>
-        <Route path="/" exact>
-          <header className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
-            <Link to="/home"  style={{color:"white"}}>HELLO?</Link>
-          </header>
-        </Route>
+        <Route path="/" exact component={Index}/>
         <Route path="/home" exact>
-          <Index />
+          아아아
         </Route>
       </Switch>
     </div>
