@@ -25,7 +25,7 @@ function Index() {
                     <div className="skillList">
                         <div className="dt">협업</div>
                         <div className="dd">FLOW</div>
-                        <div className="dd">GitHub1</div>
+                        <div className="dd">GitHub</div>
                     </div>
                 </div>
             </div>
